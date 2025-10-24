@@ -26,7 +26,7 @@
 
 <div class="video">
 	<h2>{video.title}</h2>
-	<a href={video.url}>
+	<a href={video.url} aria-label={video.title}>
 		<img src={video.thumbnail_url} alt="" />
 	</a>
 
