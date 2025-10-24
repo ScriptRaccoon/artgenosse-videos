@@ -39,6 +39,7 @@ p {
 a {
 	text-underline-offset: 2px;
 	color: inherit;
+	outline-offset: 2px;
 }
 
 button,
@@ -53,15 +54,15 @@ button {
 	cursor: pointer;
 }
 
+:is(a, button, input):focus-visible {
+	outline: 1px solid white;
+}
+
 .button {
 	background-color: var(--button-color);
 	color: white;
 	padding: 0.4rem 0.8rem;
 	border-radius: 0.25rem;
-
-	&:focus-visible {
-		outline: 1px solid white;
-	}
 
 	&:active {
 		transform: translate(1px, 1px);
@@ -75,8 +76,4 @@ button {
 	border-radius: 0.25rem;
 	outline: none;
 	background-color: var(--secondary-bg-color);
-
-	&:focus-visible {
-		border-color: white;
-	}
 }
