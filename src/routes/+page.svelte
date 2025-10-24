@@ -44,6 +44,10 @@
 <VideoList videos={displayed_videos} />
 
 <style>
+	p {
+		text-align: center;
+	}
+
 	input {
 		width: 100%;
 	}

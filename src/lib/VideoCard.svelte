@@ -85,6 +85,10 @@
 	.description {
 		color: var(--secondary-font-color);
 		margin-bottom: 0.5rem;
+
+		@media (max-width: 600px) {
+			font-size: 0.875rem;
+		}
 	}
 
 	.description_container {

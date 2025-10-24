@@ -16,15 +16,16 @@
 	}
 
 	h1 {
-		font-size: 2rem;
-
-		@media (min-width: 600px) {
-			font-size: 2.25rem;
-		}
+		font-size: 2.25rem;
 	}
 
 	p {
 		text-wrap: balance;
 		color: var(--secondary-font-color);
+
+		@media (max-width: 600px) {
+			line-height: 1.4;
+			font-size: 0.875rem;
+		}
 	}
 </style>

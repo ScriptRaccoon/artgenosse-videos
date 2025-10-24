@@ -21,6 +21,7 @@
 	ul {
 		margin-top: 2rem;
 		list-style: none;
+		padding-inline: 0.5rem;
 	}
 
 	li {
