@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--bg-color: #222;
+	--font-color: #eee;
+	--secondary-font-color: #aaa;
+	--button-color: #188925;
+	--outline-color: #444;
+	--secondary-bg-color: #111;
+	--card-color: #2a2b2a;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--font-color);
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	padding-bottom: 2rem;
+}
+
+h1,
+h2 {
+	font-weight: 400;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+p {
+	margin-block: 1rem;
+}
+
+a {
+	text-underline-offset: 2px;
+	color: inherit;
+}
+
+button,
+input {
+	font: inherit;
+	color: inherit;
+	background: none;
+	border: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+.button {
+	background-color: var(--button-color);
+	color: white;
+	padding: 0.4rem 0.8rem;
+	border-radius: 0.25rem;
+
+	&:focus-visible {
+		outline: 1px solid white;
+	}
+
+	&:active {
+		transform: translate(1px, 1px);
+		filter: brightness(1.05);
+	}
+}
+
+.input {
+	padding: 0.4rem;
+	border: 1px solid var(--outline-color);
+	border-radius: 0.25rem;
+	outline: none;
+	background-color: var(--secondary-bg-color);
+
+	&:focus-visible {
+		border-color: white;
+	}
+}
