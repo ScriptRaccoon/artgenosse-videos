@@ -7,12 +7,17 @@
 
 	let { video }: Props = $props()
 
-	function copy_url() {
-		navigator.clipboard.writeText(video.url)
-		copied = true
-		setTimeout(() => {
-			copied = false
-		}, 2500)
+	async function copy_url() {
+		try {
+			if (!('clipboard' in navigator)) throw 'Missing clipboard support'
+			await navigator.clipboard.writeText(video.url)
+			copied = true
+			setTimeout(() => {
+				copied = false
+			}, 2500)
+		} catch (err) {
+			console.error(err)
+		}
 	}
 
 	let copied = $state(false)
