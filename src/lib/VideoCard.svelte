@@ -30,8 +30,11 @@
 </script>
 
 <div class="video">
-	<h2>{video.title}</h2>
-	<a href={video.url} aria-label={video.title}>
+	<h2>
+		<a href={video.url}>{video.title}</a>
+	</h2>
+
+	<a href={video.url} aria-label={video.title} tabindex="-1" aria-hidden="true">
 		<img src={video.thumbnail_url} alt="" />
 	</a>
 
@@ -65,7 +68,6 @@
 		border-radius: 0.5rem;
 		box-shadow: 0 0 1rem #0006;
 		position: relative;
-		overflow: hidden;
 	}
 
 	h2 {
@@ -76,6 +78,10 @@
 
 	a {
 		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	img {
@@ -83,11 +89,12 @@
 		border-radius: 0.5rem;
 	}
 
-	.copy_btn {
-		width: 100%;
+	.description_container {
+		margin-block: 0.5rem 1rem;
 	}
 
 	.description {
+		overflow: hidden;
 		color: var(--secondary-font-color);
 		margin-bottom: 0.5rem;
 
@@ -96,7 +103,7 @@
 		}
 	}
 
-	.description_container {
-		margin-block: 0.5rem 1rem;
+	.copy_btn {
+		width: 100%;
 	}
 </style>
