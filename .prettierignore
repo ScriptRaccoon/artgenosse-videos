@@ -7,4 +7,4 @@ bun.lockb
 
 # Miscellaneous
 /static/
-/src/lib/*.json
+/src/lib/data/*.json

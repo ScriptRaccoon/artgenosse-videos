@@ -9,7 +9,9 @@
 
 	async function copy_url() {
 		try {
-			if (!('clipboard' in navigator)) throw 'Missing clipboard support'
+			if (!('clipboard' in navigator)) {
+				throw new Error('Missing clipboard support')
+			}
 			await navigator.clipboard.writeText(video.url)
 			copied = true
 			setTimeout(() => {

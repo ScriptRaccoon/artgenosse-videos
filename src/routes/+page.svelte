@@ -7,19 +7,20 @@
 	let query = $state('')
 
 	videos satisfies YouTubeVideo[]
+	excluded_ids satisfies string[]
 
 	const relevant_videos = videos.filter(
 		(video) => !excluded_ids.includes(video.id)
 	)
 
 	let displayed_videos = $derived(
-		!query
-			? relevant_videos
-			: relevant_videos.filter((video) =>
+		query
+			? relevant_videos.filter((video) =>
 					(video.title + ' ' + video.description)
 						.toLowerCase()
 						.includes(query.toLowerCase())
 				)
+			: relevant_videos
 	)
 </script>
 
@@ -27,7 +28,6 @@
 	class="input"
 	bind:value={query}
 	type="search"
-	name="query"
 	aria-label="Suchbegriff"
 	placeholder="Suchbegriff ..."
 	required

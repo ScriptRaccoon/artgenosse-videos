@@ -2,8 +2,8 @@
 
 <p>
 	Diese Seite hilft dir dabei, schnell das richtige Video vom
-	<a href="https://www.youtube.com/c/DerArtgenosse" target="_blank"
-		>Artgenossen
+	<a href="https://www.youtube.com/c/DerArtgenosse" target="_blank">
+		Artgenossen
 	</a>
 	für eine Person zu finden, die lieber <i>Omni-Bingo</i> spielt anstatt sachlich
 	zu diskutieren.
@@ -53,9 +53,9 @@
 </p>
 
 <p>
-	Diese Anwendung wird von <a href="https://github.com/ScriptRaccoon"
-		>Script Raccoon</a
-	> entwickelt.
+	Diese Anwendung wird von
+	<a href="https://github.com/ScriptRaccoon">Script Raccoon</a>
+	entwickelt.
 </p>
 
 <style>
