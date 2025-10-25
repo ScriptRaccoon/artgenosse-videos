@@ -1,3 +1,7 @@
+<script lang="ts">
+	import excluded_ids from '$lib/data/excluded.json'
+</script>
+
 <h2>Info</h2>
 
 <p>
@@ -50,6 +54,15 @@
 	YouTube App nicht einmal die gezielte Suche nach Videos auf einem Kanal
 	unterstützt. Es geht also ohnehin nur in der Desktop-Version, und dort braucht
 	es drei Klicks bis man die URL kopiert hat.
+</p>
+
+<p>
+	Es wurden {excluded_ids.length} Videos ({#each excluded_ids as id, index}
+		<a href="https://youtu.be/{id}">
+			Video {index + 1}
+		</a>{#if index < excluded_ids.length - 1},&nbsp;{/if}
+	{/each}) von der Suche ausgeschlossen weil sie sich mit anderen Themen
+	beschäftigen.
 </p>
 
 <p>
