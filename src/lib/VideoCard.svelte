@@ -41,8 +41,9 @@
 					<p>{para}</p>
 				{/each}
 			</div>
+			<button onclick={() => (expanded = false)}>Weniger...</button>
 		{:else}
-			<button onclick={() => (expanded = !expanded)}>Mehr...</button>
+			<button onclick={() => (expanded = true)}>Mehr...</button>
 		{/if}
 	</div>
 
