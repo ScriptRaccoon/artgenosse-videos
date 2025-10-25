@@ -90,7 +90,7 @@
 
 	.description {
 		color: var(--secondary-font-color);
-		overflow: hidden;
+		overflow-wrap: break-word;
 
 		@media (max-width: 600px) {
 			font-size: 0.875rem;
