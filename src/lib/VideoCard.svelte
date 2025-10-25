@@ -22,10 +22,6 @@
 
 	let copied = $state(false)
 
-	let summary_length = video.description.includes('\n')
-		? video.description.indexOf('\n')
-		: 100
-
 	let expanded = $state(false)
 </script>
 
@@ -44,10 +40,6 @@
 				{@html video.description.replaceAll('\n', '<br>')}
 			</div>
 		{:else}
-			<div class="description">
-				{video.description.slice(0, summary_length)}
-			</div>
-
 			<button onclick={() => (expanded = !expanded)}>Mehr...</button>
 		{/if}
 	</div>
@@ -90,13 +82,12 @@
 	}
 
 	.description_container {
-		margin-block: 0.5rem 1rem;
+		margin-block: 1rem;
 	}
 
 	.description {
-		overflow: hidden;
 		color: var(--secondary-font-color);
-		margin-bottom: 0.5rem;
+		overflow: hidden;
 
 		@media (max-width: 600px) {
 			font-size: 0.875rem;
