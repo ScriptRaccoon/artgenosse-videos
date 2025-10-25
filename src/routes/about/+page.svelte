@@ -1,17 +1,30 @@
-<h2>Über diese Seite</h2>
+<h2>Info</h2>
 
 <p>
-	Diese Seite hilft dabei, schnell Videos vom
+	Diese Seite hilft dir dabei, schnell das richtige Video vom
 	<a href="https://www.youtube.com/c/DerArtgenosse" target="_blank"
-		>Artgenossen</a
-	> anhand von Stichwörtern zu finden. Das geht in der Regel schneller als YouTube
-	zu öffnen, den Artgenossen zu suchen und dann auf dem Kanal nach dem richtigen
-	Video zu suchen (zumal die mobile YouTube App nicht einmal die gezielte Suche nach
-	Videos auf einem Kanal unterstützt).
+		>Artgenossen
+	</a>
+	für eine Person zu finden, die lieber
+	<a href="/omni-bingo.webp">Omni-Bingo</a>
+	spielt statt sachlich zu diskutieren.
 </p>
 
 <p>
-	Die Seite wird von <a href="https://github.com/ScriptRaccoon"
+	Benutze das Suchfeld und die passenden Videos werden sofort angezeigt. Die URL
+	kann unmittelbar kopiert werden.
+</p>
+
+<p>
+	Das geht in der Regel schneller als YouTube zu öffnen, den Artgenossen zu
+	suchen und dann auf dem Kanal das richtige Video zu finden, zumal die mobile
+	YouTube App nicht einmal die gezielte Suche nach Videos auf einem Kanal
+	unterstützt. Es geht also ohnehin nur in der Desktop-Version, und dort braucht
+	es drei Klicks bis man die URL kopiert hat.
+</p>
+
+<p>
+	Diese Anwendung wird von <a href="https://github.com/ScriptRaccoon"
 		>Script Raccoon</a
 	> entwickelt.
 </p>

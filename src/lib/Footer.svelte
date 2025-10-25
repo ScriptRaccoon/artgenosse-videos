@@ -1,7 +1,7 @@
 <footer>
 	<nav>
-		<a href="/">Home</a>
-		<a href="/about">Über</a>
+		<a href="/">Suche</a>
+		<a href="/about">Info</a>
 		<button onclick={() => window.scrollTo(0, 0)}>Nach oben scrollen</button>
 	</nav>
 </footer>

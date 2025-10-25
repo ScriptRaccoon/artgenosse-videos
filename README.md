@@ -2,9 +2,7 @@
 
 <http://artgenosse.netlify.app>
 
-Diese Seite hilft dabei, schnell Videos vom [Artgenossen](https://www.youtube.com/c/DerArtgenosse) anhand von Stichwörtern zu finden.
-
-Das geht in der Regel schneller als YouTube zu öffnen, den Artgenossen zu suchen und dann auf dem Kanal nach dem richtigen Video zu suchen (zumal die mobile YouTube App nicht einmal die gezielte Suche nach Videos auf einem Kanal unterstützt).
+Diese kleine Anwendung hilft dabei, schnell das richtige Video vom [Artgenossen](https://www.youtube.com/c/DerArtgenosse) für eine Person zu finden, die lieber Omni-Bingo spielt statt sachlich zu diskutieren.
 
 ## Zum Repository
 
