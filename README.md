@@ -1,4 +1,4 @@
-# Artgenosse Videos
+# Artgenosse Videosuche
 
 <http://artgenosse.netlify.app>
 

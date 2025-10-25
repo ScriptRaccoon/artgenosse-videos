@@ -1,6 +1,6 @@
 {
-  "name": "Artgenosse Videos",
-  "short_name": "Artgenosse Videos",
+  "name": "Artgenosse Videosuche",
+  "short_name": "Artgenosse Videosuche",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

@@ -3,7 +3,7 @@
 </script>
 
 <header>
-	<h1>Artgenosse Videos</h1>
+	<h1>Artgenosse Videosuche</h1>
 
 	{#if page.url.pathname === '/'}
 		<a href="/about">Info</a>

@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Artgenosse Videos</title>
+	<title>Artgenosse Videosuche</title>
 	<meta
 		name="description"
 		content="Diese Seite hilft dabei, schnell das richtige Video vom Artgenossen zu finden."
@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-	<meta name="apple-mobile-web-app-title" content="Artgenosse Videos" />
+	<meta name="apple-mobile-web-app-title" content="Artgenosse Videosuche" />
 	<link rel="manifest" href="/site.webmanifest" />
 </svelte:head>
 
