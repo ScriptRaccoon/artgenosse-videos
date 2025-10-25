@@ -63,11 +63,6 @@ button {
 	color: white;
 	padding: 0.4rem 0.8rem;
 	border-radius: 0.25rem;
-
-	&:active {
-		transform: translate(1px, 1px);
-		filter: brightness(1.05);
-	}
 }
 
 .input {
