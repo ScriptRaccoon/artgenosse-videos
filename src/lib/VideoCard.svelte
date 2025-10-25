@@ -37,7 +37,9 @@
 	<div class="description_container">
 		{#if expanded}
 			<div class="description">
-				{@html video.description.replaceAll('\n', '<br>')}
+				{#each video.description.split('\n') as para}
+					<p>{para}</p>
+				{/each}
 			</div>
 		{:else}
 			<button onclick={() => (expanded = !expanded)}>Mehr...</button>
