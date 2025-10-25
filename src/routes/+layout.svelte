@@ -37,7 +37,7 @@
 	}
 
 	.wrapper {
-		max-width: min(95vw, 520px);
+		width: min(95vw, 520px);
 		margin-inline: auto;
 		flex: 1;
 	}
