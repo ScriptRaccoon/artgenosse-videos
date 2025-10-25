@@ -66,7 +66,7 @@
 		background-color: var(--card-color);
 		padding: 1rem;
 		border-radius: 0.5rem;
-		box-shadow: 0 0 1rem #0006;
+		box-shadow: 0 0 1rem #0004;
 		position: relative;
 	}
 
