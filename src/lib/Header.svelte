@@ -7,6 +7,8 @@
 
 	{#if page.url.pathname === '/'}
 		<a href="/about">Info</a>
+	{:else if page.url.pathname === '/about'}
+		<a href="/">Suche</a>
 	{/if}
 </header>
 
