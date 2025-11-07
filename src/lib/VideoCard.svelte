@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { Clipboard, ClipboardCheck } from '@lucide/svelte'
 	import type { YouTubeVideo } from './types'
 
 	type Props = {
@@ -51,9 +52,9 @@
 
 	<button class="copy_btn button" onclick={copy_url}>
 		{#if copied}
-			URL wurde kopiert!
+			URL wurde kopiert! <ClipboardCheck />
 		{:else}
-			URL kopieren
+			URL kopieren <Clipboard />
 		{/if}
 	</button>
 </div>
@@ -101,5 +102,9 @@
 
 	.copy_btn {
 		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
 	}
 </style>
