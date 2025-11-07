@@ -66,9 +66,10 @@
 </p>
 
 <p>
-	Diese Anwendung wird von
-	<a href="https://github.com/ScriptRaccoon">Script Raccoon</a>
-	entwickelt.
+	Der Code dieser Anwendung findet sich auf
+	<a href="https://github.com/ScriptRaccoon/artgenosse-videos" target="_blank">
+		GitHub
+	</a>.
 </p>
 
 <style>
